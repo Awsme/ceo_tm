@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, p, a {
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+}
+
+a, a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1340px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin: 0 auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.page > header {
+	background: url('../images/header-bg.jpg') no-repeat;
+	background-size: cover; 
+	padding: 60px 0 140px;
+}
+
+.page-title-divider {
+	background: #d74313;
+	height: 2px;
+	width: 92px;
+	margin-top: 134px;
+}
+
+.page-title h1 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 1.23;
+	letter-spacing: .68px;
+	padding-top: 30px;
+}
+
+.page-title p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 1.2;
+	letter-spacing: .35px;
+	padding-top: 34px;
+}
+
+.page-title a {
+	margin-top: 57px;
+	padding: 22px 40px;
+	letter-spacing: .3px;
+	border-radius: 4px;
+	display: inline-block;
+	background: #e34818;
+	color: #fff;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.page-title a:hover {
+	background: #ca4116;
+}
+
+.page-mailform {
+	padding: 80px 0;
+}
+
+.page-mailform h2 {
+	color: #243238;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-left: 20px;
+	line-height: 15px;
+	letter-spacing: 2px;
+}
+
+.page-mailform form {
+	padding-top: 10px;
+	width: 420px;
+	max-width: 420px;
+	margin: 0 auto;
+}
+
+.page-mailform form input, .page-mailform form textarea {
+	width: 100%;
+	height: 60px;
+	margin-top: 20px;
+	border-radius: 4px;
+	padding: 20px 50px;
+	border: none;
+	border-top: 1px solid #cfd8dc;
+	background: #eceff1;
+	color: #90a4ae;
+	font-size: 16px;
+	outline: none;
+	box-shadow: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.page-mailform form textarea {
+	height: 200px;
+	max-height: 200px;
+	padding: 20px;
+}
+
+.page-mailform form div {
+	position: relative;
+}
+
+.page-mailform-email .label, .page-mailform-name .label {
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	font-size: 16px;
+	color: #90a4ae;
+	display: block;
+}
+
+.page-mailform-email .icon, .page-mailform-name .icon {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	font-family: FontAwesome;
+	font-size: 16px;
+	color: #90a4ae;
+	display: block;
+}
+
+.page-mailform-email .icon:before {
+	content: "\f0e0";
+}
+.page-mailform-name .icon:before {
+	content: "\f007";
+}
+
+.page-mailform-textarea .label {
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	font-size: 16px;
+	color: #90a4ae;
+}
+
+.page-mailform .blah {
+	margin-top: 20px;
+	background: black;
+	height: 60px;
+}
+
+/* Page Team */
+.page-team {
+	background: url('../images/page-bg-01.jpg') no-repeat;
+	padding: 80px 0;
+}
+
+.page-team h2 {
+	font-size: 50px;
+	line-height: 27px;
+	color: #243238;
+}
+
+.page-team p {
+	margin-top: 30px;
+	font-size: 20px;
+	letter-spacing: 2.3px;
+	color: #0099ff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.page-team .page-team-member {
+	padding-top: 95px;
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-team .page-team-member .member {
+	display: inline-block;
+	padding: 0 67px;
+}
+
+.page-team .page-team-member .member-photo {
+	position: relative;
+	z-index: 1;
+	line-height: 0;
+}
+
+.page-team .page-team-member .member-photo img {
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 1, 0.05);
+	z-index: 3;
+}
+
+.page-team .page-team-member .member-photo:before {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	background: #f2f4f5;
+	z-index: -1;
+	top: -10px;
+	left: -10px;
+	right: -10px;
+	bottom: -10px;
+}
+
+.page-team .page-team-member .member h3 {
+	margin-top: 50px;
+}
+.page-team .page-team-member .member a {
+	color: #243238;	
+}
+.page-team .page-team-member .member a:hover {
+	color: #0099ff;
+	text-decoration: underline;
+}
+
+.page-team .page-team-member .member p {
+	color: #d74313;
+	margin-top: 10px;
+	letter-spacing: normal;
+}
